@@ -32,23 +32,23 @@ macro_bl1_pc: macro_bl1_pc{
 compatible = "zmk,behavior-macro";
 label = "macro_bl1_pc";
 #binding-cells = <0>;
-bindings = <&bt BT_SEL 1>, <&to 0>;
+bindings = <&bt BT_SEL 0>, <&to 0>;
 };
 macro_bl2_pc: macro_bl2_pc{
 compatible = "zmk,behavior-macro";
 label = "macro_bl2_pc";
 #binding-cells = <0>;
-bindings = <&bt BT_SEL 2>, <&to 0>;
+bindings = <&bt BT_SEL 1>, <&to 0>;
 };
 macro_bl3_mac: macro_bl3_mac{
 compatible = "zmk,behavior-macro";
 label = "macro_bl3_mac";
 #binding-cells = <0>;
-bindings = <&bt BT_SEL 3>, <&to 4>;
+bindings = <&bt BT_SEL 2>, <&to 4>;
 };
 macro_bl4_mac: macro_bl4_mac{
 compatible = "zmk,behavior-macro";
 label = "macro_bl4_mac";
 #binding-cells = <0>;
-bindings = <&bt BT_SEL 4>, <&to 4>;
+bindings = <&bt BT_SEL 3>, <&to 4>;
 };
